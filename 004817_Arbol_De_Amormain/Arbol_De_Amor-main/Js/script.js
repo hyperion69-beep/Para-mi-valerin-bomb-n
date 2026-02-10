@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para mi princesa hermosa, mi valerin bombín:\n\nHola de nuevo mi niña, estamos apunto de cumplir 9 meses preciosa, y enserio han sido los mejores meses a tu lado <3 \n\nGracias infinitamente por todo bebe, quiero siempre demostrarte mi amor y es por eso que por aqui te estare dejando notitas siempre que pueda, quedate siempre a mi lado y cumplamos todos esos sueños y metas juntos mi amorcito`;  } else {
+    text = `Para mi princesa hermosa, mi valerin bombín:\n\nHola de nuevo mi niña hermosa, estamos apunto de cumplir 9 meses preciosa, y enserio han sido los mejores meses a tu lado <3 \n\nGracias infinitamente por todo bebe, quiero siempre demostrarte mi amor y es por eso que por aqui te estare dejando notitas siempre que pueda, quedate siempre a mi lado y cumplamos todos esos sueños y metas juntos mi amorcito`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
